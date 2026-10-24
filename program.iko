@@ -1,0 +1,27 @@
+// IlokoScript program
+
+aramiden computeArea(length, width) {
+    result = times(length, width)
+    iparang("Computed Area:")
+    iparang(result)
+}
+
+// Basic arithmetic variables
+total = pagtiponen(15, 25)
+remnant = kisayan(50, 12)
+product = times(8, 9)
+quotient = gudwaen(100, 4)
+
+iparang("Addition result (pagtiponen):")
+iparang(total)
+
+iparang("Subtraction result (kisayan):")
+iparang(remnant)
+
+iparang("Division result (gudwaen):")
+iparang(quotient)
+
+iparang("--- Testing Function ---")
+computeArea(10, 5)
+
+iparang ("THIS IS OUR FINAL PROJECT FOR CMPSC 132")
